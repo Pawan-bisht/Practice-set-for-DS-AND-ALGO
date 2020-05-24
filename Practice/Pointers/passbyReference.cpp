@@ -5,7 +5,7 @@ void increment(int a)
 {
     a++;
 }
-
+// Pass By reference
 void incrementA(int *a)
 {
     *a = *a + 1;
@@ -13,10 +13,10 @@ void incrementA(int *a)
 int main()
 {
     int a = 10;
+    cout<< a <<endl;   
+    increment(a);     // Call by value
     cout<< a <<endl;
-    increment(a);
-    cout<< a <<endl;
-    incrementA( &a );
+    incrementA( &a );   // Call by reference
     cout<<a <<endl;
     return 0;
 }

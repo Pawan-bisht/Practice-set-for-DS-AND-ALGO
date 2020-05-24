@@ -1,0 +1,3 @@
+ g++ <file-name>.cpp -o <file-name-for-exe>.exe
+ ./<fiel-name-for-exe>.exe
+ 
